@@ -1,0 +1,22 @@
+# ── .NET ─────────────────────────────────────────────────────────────────────
+api/bin/
+api/obj/
+api/*.user
+
+# ── Node / frontend ───────────────────────────────────────────────────────────
+web/node_modules/
+web/dist/
+
+# ── Environment secrets ───────────────────────────────────────────────────────
+.env
+web/.env.local
+web/.env.*.local
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
